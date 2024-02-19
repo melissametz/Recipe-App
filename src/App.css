@@ -2,6 +2,7 @@
 
 .App {
   padding: 1em;
+  flex-wrap: wrap;
 }
 
 .create td {
@@ -23,6 +24,7 @@ h1 {
   font-family: 'Playfair Display SC';
   text-align: center;
   font-size: 64px;
+  flex-wrap: wrap;
 }
 
 html {
@@ -32,23 +34,28 @@ html {
 thead th,
 tfoot th {
   font-family: 'Rock Salt';
+  flex-wrap: wrap;
 }
 
 tbody tr:nth-child(odd) {
   background-color: #f3a7d6;
+  flex-wrap: wrap;
 }
 
 .create td:nth-child(n+4):nth-child(-n+5) {
   width: 30% !important;
+  flex-wrap: wrap;
 }
 
 .create td input {
   width: 100%;
+  flex-wrap: wrap;
 }
 
 th {
   letter-spacing: 2px;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 td {
@@ -58,6 +65,7 @@ td {
   font-size: 12px;
   padding: 10px;
   text-justify: justify;
+  flex-wrap: wrap;
 }
 
 table {
@@ -66,11 +74,13 @@ table {
   border-collapse: collapse;
   overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
 }
 
 img {
   object-fit: scale-down;
   width: 100%;
+  flex-wrap: wrap;
   height: 100%;
 }
 
@@ -79,6 +89,7 @@ img {
   max-height: 100px;
   overflow-y: auto;
   text-overflow: ellipsis;
+  flex-wrap: wrap;
 }
 
   button {

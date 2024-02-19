@@ -1,4 +1,4 @@
-# Recipe CRUD
+# Melissa's Recipe - CRUD App
 A CRUD application allows a user to create, read, update or delete selected data. For this project, you will build the interface of a food recipe CRUD app. The interface won't use a database or an API to store the data; it will require you to use React's `useState()` hook.
 
 ## Learning objectives
@@ -66,9 +66,10 @@ If you do any of the following, the Chegg Skills team may suggest improvements y
 
 After completing the project, added the following:
 
-* Added styling to page
+* Added styling to page throughout
 * Updated project name
 * Added Personal Recipes
+* Added framer motion for animation of page
 
 ### Prerequisutes
 
