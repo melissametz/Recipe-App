@@ -68,7 +68,7 @@ If you do any of the following, the Chegg Skills team may suggest improvements y
 
 ## Additional Notes:
 
-After completing the project, added the following:
+After completing the project, I updated the following:
 
 * Added styling to page throughout
 * Updated project name
