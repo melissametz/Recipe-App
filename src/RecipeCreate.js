@@ -63,7 +63,7 @@ const RecipeCreate = ({ createRecipe }) => {
                     id="photo"
                     type="text"
                     name="photo"
-                    placeholder="URL"
+                    placeholder="Photo URL"
                     onChange={handleChange}
                     value={formData.photo}
                   />
