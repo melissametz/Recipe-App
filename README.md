@@ -61,3 +61,23 @@ If you do any of the following, the Chegg Skills team may suggest improvements y
 * Use of components with multiple reasons to re-render.
 
 * Use of components with multiple responsibilities. Most logic should be broken out into small, single-responsibility pure functions that mutate the state as necessary.
+
+## Additional Notes:
+
+* After completing the project, added the following:
+
+
+
+### Prerequisutes
+
+Before you begin, ensure you have the latest versio of Node.js and npm installed.
+
+### Setup and Installation
+
+To set up enviornment, clone the repository and install the dependencies:
+
+To start the development server and view the project in your browser:
+
+Navigate to htte://localhost:3000 to view it in the browser. The page will reload if you make edite. You may also see any lint errors in the console.
+
+To build the app for production to the buil folder:

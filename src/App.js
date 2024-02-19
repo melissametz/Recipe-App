@@ -22,7 +22,7 @@ const App = () => {
   
   return (
     <div className="App">
-      <header><h1>Delicious Food Recipes</h1></header>
+      <header><h1>Melissa's Recipes</h1></header>
       <RecipeList recipes={recipes} deleteRecipe={handleDeleteRecipe}/>
       <RecipeCreate  createRecipe={handleCreateRecipe}/>
     </div>
