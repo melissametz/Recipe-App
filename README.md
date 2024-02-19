@@ -1,4 +1,8 @@
-# Melissa's Recipe - CRUD App
+# [Melissa's Recipe - CRUD App](https://recipe-app-ten-kohl.vercel.app/)
+
+*This site was built using Vercel.*
+
+## Instructions
 A CRUD application allows a user to create, read, update or delete selected data. For this project, you will build the interface of a food recipe CRUD app. The interface won't use a database or an API to store the data; it will require you to use React's `useState()` hook.
 
 ## Learning objectives
@@ -68,19 +72,28 @@ After completing the project, added the following:
 
 * Added styling to page throughout
 * Updated project name
-* Added Personal Recipes
 * Added framer motion for animation of page
+* Deployed using Vercel
 
 ### Prerequisutes
 
-Before you begin, ensure you have the latest versio of Node.js and npm installed.
+Before you begin, ensure you have the latest version of [Node.js and npm](https://nodejs.org/) installed.
 
 ### Setup and Installation
 
-To set up enviornment, clone the repository and install the dependencies:
-
+```sh
+git clone https://github.com/melissametz/Recipe-App.git
+cd new-clean-website
+npm install
+```
 To start the development server and view the project in your browser:
+```sh
+npm start
+```
+Navigate to http://localhost:3000 to view it in the browser. The page will reload if you make edits. You may also see any lint errors in the console.
 
-Navigate to htte://localhost:3000 to view it in the browser. The page will reload if you make edite. You may also see any lint errors in the console.
+To build the app for production to the build folder:
+```sh
+npm run build
+```
 
-To build the app for production to the buil folder:
