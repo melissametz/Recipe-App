@@ -107,28 +107,28 @@ img {
   }
 
   @media (max-width: 600px) {
-   th{
+  th{
     display: none;
-   }
+  }
 
-     table td {
-       display: flex;
-       width: 100%;
-       min-width: 100%;
-     }
-  
+  table td {
+    display: flex;
+    width: 100%;
+    min-width: 100%;
+  }
 
-    table td::before {
-      content:inherit;
-      font-weight: bold;
-      width: 100%;
-      min-width: 100%;
-    }
 
-    button{
-      width: 100%;
-      border-radius: 10px;
-    }
+table td::before {
+  content:inherit;
+  font-weight: bold;
+  width: 100%;
+  min-width: 100%;
+}
+
+button{
+  width: 100%;
+  border-radius: 10px;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -138,5 +138,25 @@ form {
 textarea {
   width: 100%; 
   border-radius: 10px;
+  text-align: center;
 }
+
+label{
+  width: 323px;
+}
+
+input{
+  width: 323px;
+  text-align: center;
+}
+
+p{
+  width: 100%;
+}
+
+td{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
   }
