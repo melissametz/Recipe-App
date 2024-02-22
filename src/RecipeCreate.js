@@ -24,7 +24,8 @@ const RecipeCreate = ({ createRecipe }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    createRecipe(formData);
+    const ingredientsList = formData.ingredients.split(",").map((ingredient, index) => <li key={index}>{ingredient.trim()}</li>);
+    createRecipe({ ...formData, ingredients: ingredientsList });
     setFormData({ ...initialFormState });
   };
 
