@@ -52,7 +52,6 @@ th {
   letter-spacing: 2px;
   padding: 10px;
   flex-wrap: wrap;
-  text-align: center;
   align-items: center;
 }
 
@@ -62,7 +61,6 @@ td {
   overflow-y: hidden;
   font-size: 12px;
   padding: 10px;
-  flex-wrap: wrap;
 }
 
 table {
@@ -71,13 +69,11 @@ table {
   border-collapse: collapse;
   overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  flex-wrap: wrap;
 }
 
 img {
   object-fit: scale-down;
   width: 100%;
-  flex-wrap: wrap;
   height: 100%;
   border-radius: 10px;
 }
@@ -87,7 +83,6 @@ img {
   max-height: 100px;
   overflow-y: auto;
   text-overflow: ellipsis;
-  flex-wrap: wrap;
 }
 
   button {
@@ -97,24 +92,22 @@ img {
     color: black;
     border-radius: 10px;
     border: none;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); /* Adds a shadow to the button */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); 
     display: inline-block;
   }
 
   button:hover {
     background-color: rgba(0, 0, 0, 0.84);
     color: white;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Adds a darker shadow when the button is hovered over */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); 
   }
 
   label {
     width: 100%;
-    text-align: center;
     border-radius: 10px;
-    display: inline-block;
   }
 
-  input, textarea { 
+  input{ 
     width: 100%;
     height: 32px;
     border-radius: 10px;
@@ -122,18 +115,25 @@ img {
     border: 1px solid #ffffff;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
     text-align: center;
+    display: inline-table;
+  }
+
+    textarea {
+      width: 100%;
+      height: 32px;
+      border-radius: 10px;
+      border: 1px solid #ffffff;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+      text-align: center;
+      line-height: 25px;
+      display:inline-table;
+    }
+
+  .input-container, .textarea-container {
+    display: flex;
+    flex-direction: row;
     display: inline-block;
   }
-
-  .textarea #ingredients {
-    display: inline-;
-  }
-
-    .input-container, .textarea-container {
-      display: flex;
-      flex-direction: row;
-      display: inline-block;
-    }
 
   @media (max-width: 600px) {
   th{
