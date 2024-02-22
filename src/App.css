@@ -20,6 +20,7 @@ h1 {
   text-align: center;
   font-size: 64px;
   flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
 }
 
 html {
@@ -89,57 +90,68 @@ img {
   flex-wrap: wrap;
 }
 
-  button {
-    width: 100%;
-    height: 32px;
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); 
-    display: inline-block;
-  }
+button {
+  width: 100%;
+  height: 32px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); 
+  display: inline-block;
+}
 
-  button:hover {
-    background-color: rgba(0, 0, 0, 0.84);
-    color: white;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); 
-  }
+button:hover {
+  background-color: rgba(0, 0, 0, 0.84);
+  color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); 
+}
 
-  label {
-    width: 100%;
-    border-radius: 10px;
-  }
+label {
+  width: 100%;
+  border-radius: 10px;
+}
 
-  input{ 
-    width: 100%;
-    height: 32px;
-    border-radius: 10px;
-    text-align: left;
-    border: 1px solid #ffffff;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    display: inline-table;
-  }
+input{ 
+  width: 100%;
+  height: 50px;
+  line-height: 25px;
+  border-radius: 10px;
+  text-align: left;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  display: inline-table;
+}
 
-  textarea {
-    width: 100%;
-    height: 32px;
-    border-radius: 10px;
-    border: 1px solid #ffffff;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    line-height: 25px;
-    display:inline-table;
-  }
+textarea {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  line-height: 42px;
+  display:inline-table;
+}
 
-  .input-container, .textarea-container {
-    display: flex;
-    flex-direction: row;
-    display: inline-block;
-  }
+.input-container, .textarea-container {
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+}
 
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
+
+html{
+  padding: 0;
+}
+
+h1{
+  font-size: 32px;
+  padding: 5%;
+  border-radius: 10%;
+}
 
 .app{
     display: inline-block;
