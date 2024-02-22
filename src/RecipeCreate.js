@@ -24,8 +24,19 @@ const RecipeCreate = ({ createRecipe }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const ingredientsList = formData.ingredients.split(",").map((ingredient, index) => <li key={index}>{ingredient.trim()}</li>);
-    createRecipe({ ...formData, ingredients: ingredientsList });
+    const ingredientsList = formData.ingredients
+      .split(",")
+      .map((ingredient, index) => (
+        <li key={index}>{ingredient.trim()}</li>
+      ));
+    const preparationList = formData.preparation
+      .split(",")
+      .map((step, index) => <li key={index}>{step.trim()}</li>);
+    createRecipe({
+      ...formData,
+      ingredients: ingredientsList,
+      preparation: <ol>{preparationList}</ol>,
+    });
     setFormData({ ...initialFormState });
   };
 
